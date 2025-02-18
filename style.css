@@ -1,15 +1,17 @@
-body{
-    /* border: 3px solid red; */
-    background-color: bisque;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100px;
-    padding: 10px;
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
 }
-video{
-    /* border: 3px solid green; */
-    width: auto;
-
-    max-height: 70vh;
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.video-wrapper {
+    margin-bottom: 40px;
 }
